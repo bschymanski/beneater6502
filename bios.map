@@ -1,0 +1,30 @@
+Modules list:
+-------------
+bios.o:
+    BIOS              Offs=000000  Size=00001C  Align=00001  Fill=0000
+    WOZMON            Offs=000000  Size=0000FA  Align=00001  Fill=0000
+    RESETVEC          Offs=000000  Size=000006  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+BIOS                  008000  00801B  00001C  00001
+WOZMON                00FF00  00FFF9  0000FA  00001
+RESETVEC              00FFFA  00FFFF  000006  00001
+
+
+Exports list by name:
+---------------------
+
+
+
+Exports list by value:
+----------------------
+
+
+
+Imports list:
+-------------
+
